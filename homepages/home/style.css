@@ -1,0 +1,136 @@
+.big-box .back p{
+    text-align:right;
+}
+body {
+    margin : 0;
+    padding : 0;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    height: 60px;
+}
+
+nav ul{
+    display: flex;
+}
+nav ul li a{
+    margin: 30px;
+    font-family: 'Roboto Mono', monospace;
+    color: #23FF53;
+}
+a:link {
+    color: #23FF53; 
+}
+
+/* visited link */
+a:visited {
+    color: #23FF53; 
+}
+
+a:hover {
+    color: white;
+}
+
+h1{
+    font-family: 'Roboto Mono', monospace;
+    color: #23FF53;
+    font-size: 20px;
+    text-align: center;
+    line-height: normal;
+}
+
+h2{
+    font-family:'Roboto Mono', monospace;
+    color:#23FF53;
+    font-size: 36px;
+    text-align: center;
+    line-height: 10%;
+}
+
+.boxed {
+    color:#23FF53;
+    border: 0.5px solid #23FF53;
+    width: 854px;
+    height: 315px;
+    top: 50%;
+    left: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.boxed p {
+    line-height: 100%;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 14px;
+    border-right: 1px solid #23FF53;
+    animation: typist 50s, caret 1s infinite step-end;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+@keyframes caret{
+    0%, 100%{border-color: transparent;}
+    50%{border-color:#23FF53;}
+}
+
+@keyframes typist{
+    0%{width: 0ch }
+    50%{width: 224ch;}
+    100%{width: 224ch;}
+}
+
+.boxed ul {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 14px;
+    margin-left: -4.5%
+}
+
+.boxed li {
+    border-right: 1px solid #23FF53;
+    animation: typist 50s, caret 1s infinite step-end;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.big-box{
+    color:#23FF53;
+    border: 0.5px solid #23FF53;
+    width: 855px;
+    height: 453px;
+    top: 50%;
+    left: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.big-box h1{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 16px;
+    color: #23FF53;
+    text-align: left;
+    margin: 1%;
+    margin-left: 1.5%;
+    margin-bottom: 0%;;
+}
+
+.big-box ul{
+    margin: 5px;
+    font-family: 'Roboto Mono', monospace;
+    color: #23FF53;
+    font-size: 12px;
+    display: flex;
+    margin-left: -3%;
+    justify-content: space-between;
+}
+  
